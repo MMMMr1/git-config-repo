@@ -1,3 +1,6 @@
-DATASOURCE_URL_USER=jdbc:postgresql://database-user-service:5432/postgres
-POSTGRES_PASSWORD=postgres
-POSTGRES_PASSWORD=root
+spring: 
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://database-user-service:5432/postgres
+    username: postgres
+    password: root 
